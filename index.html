@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zozah</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/free/fonts/basic/boxicons.min.css" />
+    <link
+      rel="shortcut icon"
+      href="/free/svg/basic/bx-education.svg"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.20/index.global.min.css"
+    />
+  </head>
+  <body>
+    <!-- class="darktheme" -->
+    <div class="overlay" onclick="closeToggle()"></div>
+    <section id="landing_view" class="main-view">
+      <section class="HomePage">
+        <header>
+          <div class="logo">
+            <i class="bx bx-education"></i>
+            <span>Zozah</span>
+          </div>
+          <div class="toggleMenu">
+            <i class="bx bx-menu-closer"></i>
+            <i class="bx bx-x"></i>
+          </div>
+          <div class="nav_menu">
+            <nav class="nav_links">
+              <ul>
+                <li><a href="#" onclick="showfeatures()">Features</a></li>
+                <li><a href="#" onclick="showPricing()">Pricing</a></li>
+                <li><a href="#" onclick="showAbout() ">About</a></li>
+              </ul>
+            </nav>
+            <button class="btn_login" onclick="showLogin()">Login</button>
+            <button class="btn_getStarted" onclick="showSignUp()">
+              Get Started
+            </button>
+            <!-- <li><a href="#">Login</a></li>
+          <li><a href="#">Get Started</a></li> -->
+          </div>
+        </header>
+        <section class="home_page">
+          <div class="hero_section">
+            <div class="hero_texts">
+              <h1>Master Your Future from Anywhere</h1>
+              <p>
+                Access world-class courses, expert mentors, and interactive
+                learning paths designed to launch your career into the
+                stratosphere
+              </p>
+              <button class="btn_JoinNow" onclick="showSignUp()">
+                Join Now
+              </button>
+              <button class="btn_LearnMore" onclick="showDashBoard()">
+                Learn More
+              </button>
+              <div class="trial_text">
+                <p>
+                  <i class="bx bx-check-circle"></i>
+                  <span>No credit card required</span>
+                </p>
+
+                <p>
+                  <i class="bx bx-check-circle"></i>
+                  <span>14 days free trial</span>
+                </p>
+              </div>
+            </div>
+            <div class="heroImage">
+              <img src="/images/muslim2.jpg" alt="Image of Muslim student" />
+            </div>
+          </div>
+          <div class="trusted_companies">
+            <div class="trusted_companies_header">
+              <p>Trusted By Forward Thinking Companies</p>
+            </div>
+            <div class="companies_list">
+              <div>
+                <i class="bx bx-circles"></i>
+                <p>ACME Corp</p>
+              </div>
+              <div>
+                <i class="bx bx-infinite"></i>
+                <p>Infinite</p>
+              </div>
+              <div>
+                <i class="bx bx-bolt-alt"></i>
+                <p>FastTech</p>
+              </div>
+              <div>
+                <i class="bx bx-globe-alt-2"></i>
+                <p>Global</p>
+              </div>
+              <div>
+                <i class="bx bx-cloud-sun"></i>
+                <p>Summit</p>
+              </div>
+            </div>
+          </div>
+          <div class="benefit_section">
+            <h2>Why Choose Zozah?</h2>
+            <p>
+              We provide the tools you need to succeed in a modern learning
+              environment, tailored to your personal growth.
+            </p>
+            <div class="benefit_container">
+              <div>
+                <i class="bx bxs-play-circle"></i>
+                <h5>Interactive Lessons</h5>
+                <p>
+                  Engaging video content that adapts to your pace with real time
+                  quizzes and feedback loops.
+                </p>
+              </div>
+              <div>
+                <i class="bx bxs-check-shield"></i>
+                <h5>Certified Skills</h5>
+                <p>
+                  Earn industry-recognized digital badges and certificates to
+                  showcase on your LinkedIn profile.
+                </p>
+              </div>
+              <div>
+                <i class="bx bxs-community"></i>
+                <h5>Community Support</h5>
+                <p>
+                  Connect, collaborate, and learn with a vibrant community of
+                  peers and mentors from around the globe.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="features_page">
+          <section class="features_header">
+            <p class="feautures"><a href="">FEATURES</a></p>
+            <h1>Discover Our Powerful Features</h1>
+            <p>
+              Zozah provides a comprehensive suite of tools designed to enhance
+              your learning experience, from interactive paths to career
+              launching certificates.
+            </p>
+          </section>
+          <section class="features_container">
+            <div>
+              <i class="bx bx-route"></i>
+              <h5>Interactive Learning Paths</h5>
+              <p>
+                Navigate Your Educational Journey with customized roadmaps that
+                adapt to your goals, guiding you step-by-step from beginner to
+                expert.
+              </p>
+            </div>
+            <div>
+              <i class="bx bx-network-device"></i>
+              <h5>Expert-Led Courses</h5>
+              <p>
+                Learn directly from industry veterans and academic professionals
+                through high-quality video lectures, live workshops, and case
+                studies.
+              </p>
+            </div>
+            <div>
+              <i class="bx bx-chart-line"></i>
+              <h5>Progress Tracking & Analytics</h5>
+              <p>
+                Stay motivated by visualizing your growth with detailed
+                dashboards that track completion rates, quiz scores, and skill
+                acquisition over time.
+              </p>
+            </div>
+            <div>
+              <i class="bx bx-community"></i>
+              <h5>Community & Collaboration</h5>
+              <p>
+                Join study groups, participate in discussion forums, and
+                collaorate on real-world projects with a vibrant network of
+                peers globally.
+              </p>
+            </div>
+            <div>
+              <i class="bx bx-clock"></i>
+              <h5>Flexible Scheduling</h5>
+              <p>
+                Education on your terms. Our platform is available 24/7 on any
+                device, allowing you to seamlessly balance learning with work
+                and life.
+              </p>
+            </div>
+            <div>
+              <i class="bx bx-badge-check"></i>
+              <h5>Certificated & Career</h5>
+              <p>
+                Earn industry-recognized certificates and access premium career
+                services, including resune reviews and interview prep, to land
+                your dream job.
+              </p>
+            </div>
+          </section>
+          <section class="features_call_to_action">
+            <h2>Ready to Experience These Features</h2>
+            <p>
+              Join thousands of students who are already transforming their
+              careers with Zozah. Start your free trial today.
+            </p>
+            <div>
+              <button class="btn_JoinNow" onclick="showSignUp()">
+                Get Started for Free
+              </button>
+              <button class="btn_LearnMore" onclick="showPricing()">
+                View Pricing
+              </button>
+            </div>
+          </section>
+        </section>
+        <section class="pricing_page">
+          <section class="price_section">
+            <h1>Flexible Pricing for Every Learner</h1>
+            <p>
+              Choose the plan that fits your learning journey. whether you're
+              just starting or looking to master advanced skills, we have a path
+              for you.
+            </p>
+          </section>
+          <section class="price_card">
+            <div class="duration">
+              <div
+                id="monthly_duration"
+                class="price_duration active"
+                onclick="togglePrice('monthly')"
+              >
+                <p><a href="javascript:void(0)">Monthly</a></p>
+              </div>
+              <div
+                id="yearly_duration"
+                class="price_duration"
+                onclick="togglePrice('yearly')"
+              >
+                <p><a href="javascript:void(0)">Annually</a></p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card_1" id="basic_card">
+                <h5>Basic</h5>
+                <p>Essential tools to start learning.</p>
+                <div class="price">
+                  $<span id="plan-price-basic">0</span
+                  ><small class="plan-period">/month</small>
+                </div>
+                <button class="btn_start" onclick="showSignUp()">
+                  Start for Free
+                </button>
+                <div class="card_details">
+                  <p>WHATS INCLUDED</p>
+                  <p class="access_text">
+                    <i class="bx bx-check" style="color: #0ef108"></i> Access to
+                    5 free courses
+                  </p>
+                  <p class="access_text">
+                    <i class="bx bx-check" style="color: #0ef108"></i> Community
+                    forum access
+                  </p>
+                  <p class="access_text">
+                    <i class="bx bx-check" style="color: #0ef108"></i> Basic
+                    quizzes
+                  </p>
+                  <p class="access_text" style="text-decoration: line-through">
+                    <i class="bx bx-x" style="color: #0ef108"></i> Certificate
+                    of completion
+                  </p>
+                </div>
+              </div>
+              <div class="card_2 active">
+                <h5>Pro Learner</h5>
+                <p>Unlock your full potential</p>
+                <div class="price">
+                  $<span id="plan-price-pro">29</span
+                  ><small class="plan-period">/month</small>
+                </div>
+                <button class="btn_start" onclick="showSignUp()">
+                  Get Started
+                </button>
+                <div class="card_details">
+                  <p>EVERYTHING IN BASIC, PLUS</p>
+                  <p class="access_text">
+                    <i class="bx bx-check" style="color: #0ef108"></i> Unlimited
+                    course access
+                  </p>
+                  <p class="access_text">
+                    <i class="bx bx-check" style="color: #0ef108"></i>
+                    Professional Certificates
+                  </p>
+                  <p class="access_text">
+                    <i class="bx bx-check" style="color: #0ef108"></i> Offline
+                    downloads
+                  </p>
+                  <p class="access_text">
+                    <i class="bx bx-check" style="color: #0ef108"></i> Priority
+                    mentor support
+                  </p>
+                </div>
+              </div>
+              <div class="card_3">
+                <h5>Team</h5>
+                <p>Scale learning for your organization.</p>
+                <div class="price">
+                  $<span id="plan-price-team">99</span
+                  ><small class="plan-period">/month</small>
+                </div>
+                <button class="btn_start">Contact Sales</button>
+                <div class="card_details">
+                  <p>EVERYTHING IN PRO, PLUS</p>
+                  <p class="access_text">
+                    <i class="bx bx-check" style="color: #0ef108"></i> Admin
+                    dashboard & analytics
+                  </p>
+                  <p class="access_text">
+                    <i class="bx bx-check" style="color: #0ef108"></i> SSO &
+                    advanced security
+                  </p>
+                  <p class="access_text">
+                    <i class="bx bx-check" style="color: #0ef108"></i> Dedicated
+                    account manager
+                  </p>
+                  <p class="access_text">
+                    <i class="bx bx-check" style="color: #0ef108"></i> Custom
+                    learning paths
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="frequent_questions">
+            <h2>Frequently Asked Questions</h2>
+            <p>Have questions? We're here to help.</p>
+            <div class="frequent_questions_card">
+              <h5>Can i switch plans later?</h5>
+              <p>
+                Yes you can upgrade or downgrade your plans at any time. Changes
+                will be reflected in your next billing cycle.
+              </p>
+            </div>
+            <div class="frequent_questions_card">
+              <h5>Is there a free trial for the Pro plan?</h5>
+              <p>
+                Absolutely! We offer a 14-day free trial for the Pro plan so you
+                can can explore all the premium features risk-free.
+              </p>
+            </div>
+            <div class="frequent_questions_card">
+              <h5>Do you offer student discounts?</h5>
+              <p>
+                Yes, verified students are eligible for a 50% discount on the
+                Pro annual plan, Contact our support team with your students ID.
+              </p>
+            </div>
+          </section>
+          <div>
+            <p>
+              Still have questions? <a href="#">Contact our support team</a>
+            </p>
+          </div>
+        </section>
+        <section class="about_page">
+          <section class="about_section">
+            <div class="about_header">
+              <h1>Empowering the Future of Learning</h1>
+              <p>
+                We are a team of educators and technologists bridging the gap
+                between curiosity and knowledge witha platform desgined for
+                modern education.
+              </p>
+              <button class="btn_JoinTeam" onclick="showSignUp()">
+                Join Our Team
+              </button>
+              <button class="btn_contact">Contact Us</button>
+            </div>
+            <div class="about_Image">
+              <img
+                src="/images/groupofpeople.jpg"
+                alt="Image of Muslim student"
+              />
+            </div>
+          </section>
+          <section class="purpose">
+            <h2>Our Purpose</h2>
+            <p>
+              Driven by a passion to make quality education accessible to
+              everyone regardless of their location or background.
+            </p>
+            <div class="about_cards">
+              <div>
+                <i class="bx bxs-flag-alt" style="color: #137fec"></i>
+                <div>
+                  <h4>Our Mission</h4>
+                  <p>
+                    To democratize access to high-quality education by
+                    connecting learners with the world's best resources and
+                    mentors.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <i class="bx bxs-eye" style="color: #137fec"></i>
+                <div>
+                  <h4>Our Vision</h4>
+                  <p>
+                    A future where curiosity is the only prerequisite for
+                    learning, and education is a seamless part of daily life.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="core_value">
+            <h2>Our Core Values</h2>
+            <div class="values_card">
+              <div>
+                <i class="bx bxs-body" style="color: #137fec"></i>
+                <h4>Inclusivity</h4>
+                <p>
+                  We believe education should be accessible to all breaking down
+                  barriers of cost and geography.
+                </p>
+              </div>
+              <div>
+                <i class="bx bxs-certification" style="color: #137fec"></i>
+                <h4>Integrity</h4>
+                <p>
+                  We operate with transparency and honesty, prioritizing the
+                  trust of our students and partners.
+                </p>
+              </div>
+              <div>
+                <i class="bx bxs-light-bulb" style="color: #137fec"></i>
+                <h4>Innovation</h4>
+                <p>
+                  We constantly challenge the status quo to build better tools
+                  for the classrooms of tomorrow.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="our_journey">
+            <h2>Our Journey</h2>
+            <div class="timeline">
+              <div class="timeline_item">
+                <i
+                  class="bx bxs-light-bulb-on bx-rotate-180"
+                  style="color: #137fec"
+                ></i>
+                <div>
+                  <h5>2020: Founded by Educators</h5>
+                  <p>
+                    Zozah started as a small project in a university library,
+                    aiming to solve resource fragmentation.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline_item">
+                <i class="bx bxs-community" style="color: #137fec"></i>
+                <div>
+                  <h5>2021: First 1,000 Students</h5>
+                  <p>
+                    We launched our Beta platform and were overwhelimed by the
+                    positive response from early adapters.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline_item">
+                <i class="bx bxs-globe-antartica" style="color: #137fec"></i>
+                <div>
+                  <h5>2022: Global Platform Launch</h5>
+                  <p>
+                    Expanded our services to 15 countries, adding multi-language
+                    support and currency localization.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline_item">
+                <i class="bx bxs-trophy-star" style="color: #137fec"></i>
+                <div>
+                  <h5>2023: Industry Recognition</h5>
+                  <p>
+                    Awarded "Best New EdTech Platform" and crossed the milestone
+                    of 1 million active learners.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="team">
+            <h4>Meet the Team</h4>
+            <p>The people behind the platform</p>
+            <div class="team_members">
+              <figure>
+                <img src="/images/aboutpic3.jpg" alt="" srcset="" />
+                <figcaption>
+                  <h5>Sarah Jenkins</h5>
+                  <p>CEO $ Founder</p>
+                </figcaption>
+              </figure>
+              <figure>
+                <img src="/images/aboutpic2.jpg" alt="" srcset="" />
+                <figcaption>
+                  <h5>David Chen</h5>
+                  <p>CTO</p>
+                </figcaption>
+              </figure>
+              <figure>
+                <img src="/images/aboutpic4.jpg" alt="" srcset="" />
+                <figcaption>
+                  <h5>Zainab Umar</h5>
+                  <p>Head of content</p>
+                </figcaption>
+              </figure>
+              <figure>
+                <img src="/images/aboutpic1.jpg" alt="" srcset="" />
+                <figcaption>
+                  <h5>Marcus Jonhson</h5>
+                  <p>Lead Designer</p>
+                </figcaption>
+              </figure>
+            </div>
+          </section>
+          <section class="about_cta">
+            <h4>Ready to start your learning journey?</h4>
+            <p>
+              Join over 1 million an start learning today with a free 14-days
+              trial.
+            </p>
+            <button onclick="showSignUp()">Get Started</button>
+          </section>
+        </section>
+        <footer>
+          <div class="homePage_footer_header">
+            <div class="homePage_footer_logo">
+              <i class="bx bx-education"></i>
+              <span>Zozah</span>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div>
+              <i class="bx bx-at"></i>
+              <i class="bx bx-briefcase-alt-2"></i>
+              <i class="bx bx-globe-africa"></i>
+              <i class="bx bx-wifi"></i>
+            </div>
+          </div>
+          <div class="copyright">
+            <p>&copy;2025 Zozah. All rights reserved.</p>
+          </div>
+        </footer>
+      </section>
+    </section>
+    <section id="login-view" class="main-view" style="display: none">
+      <div class="logIn">
+        <div class="signuplogo">
+          <i class="bx bx-education"></i>
+          <span>Zozah</span>
+        </div>
+        <h1>Sign in to Your Account</h1>
+        <form action="" id="login_form">
+          <label for="email"> Email Address </label>
+          <input
+            type="email"
+            name="logIn_email"
+            id="logIn_email"
+            placeholder="name@school.edu"
+            required
+          />
+          <label for="password"> Password </label>
+          <input
+            type="password"
+            name="logIn_password"
+            id="logIn_password"
+            placeholder="Enter Your Password"
+            required
+          />
+          <div class="option">
+            <div>
+              <input
+                type="checkbox"
+                id="logIn_checkBox"
+                name="logIn_checkBox"
+              />
+              <span><label for="checkBox"> Remember me </label></span>
+            </div>
+            <a href="#" onclick="showResetPassword()">Forget Password?</a>
+          </div>
+          <button type="submit" class="btn_signIn" id="btn_login">
+            Sign In
+          </button>
+          <div class="noAccount">
+            <p>Don't have an account?</p>
+            <a href="#" onclick="showSignUp()"> Register</a>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section id="signUp-view" class="main-view" style="display: none">
+      <div class="SignUp">
+        <div class="signuplogo">
+          <i class="bx bx-education"></i>
+          <span>Zozah</span>
+        </div>
+        <h1>Join Our Community Today</h1>
+        <form action="" id="signUp_form">
+          <label for="fullName">Full Name </label>
+          <input
+            type="text"
+            name="signUp_fullName"
+            id="signUp_fullName"
+            placeholder="John Doe"
+            required
+          />
+          <label for="email"> Email Address </label>
+          <input
+            type="email"
+            name="signUp_email"
+            id="signUp_email"
+            placeholder="name@school.edu"
+            required
+          />
+          <div>
+            <label for="signup_password"> Password </label>
+            <input
+              type="password"
+              name="signup_password"
+              id="signup_password"
+              placeholder="Enter Your Password"
+              required
+            />
+            <div class="strength">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <p class="strength_level"></p>
+            </div>
+
+            <p class="strength_text">Password must be atleast 8 characters</p>
+          </div>
+
+          <label for="confirmPassword">Confirm Password </label>
+          <input
+            type="password"
+            name="confirmPassword"
+            id="confirmPassword"
+            placeholder="Re-Enter your password"
+            required
+          />
+          <div class="option2">
+            <input type="checkbox" id="signUp_checkBox" name="checkBox" />
+            <span
+              ><label for="checkBox">
+                I agree to the <a href="#">Terms & Conditions</a> and
+                <a href="#">Privacy Policy</a>
+              </label></span
+            >
+          </div>
+          <button type="submit" class="btn_signIn" id="btn_signIn">
+            Sign In
+          </button>
+          <div class="noAccount">
+            <p>Already have an account?</p>
+            <a href="#" onclick=" showLogin() "> Login</a>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section id="resetPassword-view" class="main-view" style="display: none">
+      <div class="resetPassword">
+        <div class="signuplogo">
+          <i class="bx bx-education"></i>
+          <span>Zozah</span>
+        </div>
+        <h1>Forgot Your Password?</h1>
+        <p>
+          Enter the email address associated with your account and we'll send
+          you a link to reset your password.
+        </p>
+        <form action="" id="reset_password">
+          <label for="email"> Email Address </label>
+          <input
+            type="email"
+            name="reset_email"
+            id="reset_email"
+            placeholder="name@school.edu"
+            required
+          />
+          <button
+            type="submit"
+            class="btn_resetPassword"
+            id="btn_resetPassword"
+          >
+            Send Reset Link
+          </button>
+          <a href="#"><i class="bx bx-arrow-left"></i> Back to Login</a>
+        </form>
+      </div>
+    </section>
+    <section id="dashboard-view" class="main-view" style="display: none">
+      <section class="dashboard">
+        <section class="dashboard_side_bar">
+          <div class="links_container">
+            <div class="dashboard_logo">
+              <i class="bx bxs-education"></i>
+              <span>Zozah</span>
+            </div>
+            <div class="darshboard_navLinks">
+              <ul>
+                <li onclick="showDashBoard()">
+                  <i class="bx bx-dashboard"></i>Dashboard
+                </li>
+                <li onclick="showCourses()">
+                  <i class="bx bx-book-content"></i>My Courses
+                </li>
+                <li onclick="showAssignments()">
+                  <i class="bx bx-clipboard-detail"></i>Asssignment
+                </li>
+                <li onclick="showGrades()">
+                  <i class="bx bxs-bar-chart"></i>Grades
+                </li>
+                <!-- <li onclick="showShedule()">
+                  <i class="bx bx-calendar-detail"></i>Schedule
+                </li> -->
+              </ul>
+            </div>
+          </div>
+          <div class="dashboard_footer">
+            <ul>
+              <li onclick="showSetting()"><i class="bx bx-gear"></i>Setting</li>
+              <li onclick="toHomePage()">
+                <i class="bx bx-arrow-out-right-square-half"></i>LogOut
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="dashboard_view">
+          <div class="dashboard_header">
+            <div class="top_search">
+              <!-- <div class="dashboard_toggle">
+                <i class="bx bx-menu-closer"></i>
+                <i class="bx bx-x close_dashboard"></i>
+              </div> -->
+              <div class="dashboard_toggle">
+                <i class="bx bx-menu-closer"></i>
+                <i class="bx bx-x"></i>
+              </div>
+              <i class="bx bx-search dashboard_search"></i>
+              <input
+                type="text"
+                name="search_bar"
+                id="search_bar"
+                placeholder="Search for courses and assignments here "
+              />
+            </div>
+            <div class="student_id">
+              <div class="notification-icon">
+                <i class="bx bx-bell"></i>
+                <span class="notification-signal">2</span>
+              </div>
+              <div class="student_details">
+                <div class="student_name">
+                  <h5>student Name</h5>
+                  <p>status</p>
+                </div>
+                <div>
+                  <!-- <i class="bx bx-user-circle"></i> -->
+                  <img src="/images/aboutpic3.jpg" alt="" id="header-image" />
+                  <!-- <img src="" alt=""> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <section class="main_dashboard_view">
+            <div class="dashboard_page" id="dashboard_contents">
+              <div class="dashboard_contents">
+                <div class="welcome">
+                  <h2>Welcome back, <span></span></h2>
+                  <p>Tuesday, October 24th</p>
+                </div>
+                <div class="student_guide">
+                  <div class="no_of_courses">
+                    <div class="no_of_courses_header">
+                      <p>Courses in Progress</p>
+                      <span><i class="bx bx-education"></i></span>
+                    </div>
+                    <h2>0</h2>
+                  </div>
+                  <div class="upcoming_assignments">
+                    <div class="no_of_courses_header">
+                      <p>Upcoming Asssignment</p>
+                      <span
+                        ><i
+                          class="bx bx-calendar-up-arrow"
+                          style="color: #137fec"
+                        ></i
+                      ></span>
+                    </div>
+                    <h2>4</h2>
+                  </div>
+                  <div class="average_grade">
+                    <div class="no_of_courses_header">
+                      <p>Average Grade</p>
+                      <span
+                        ><i
+                          class="bx bx-trending-up"
+                          style="color: #00ff0d"
+                        ></i>
+                      </span>
+                    </div>
+                    <h2>4</h2>
+                  </div>
+                </div>
+                <div class="active_classes">
+                  <div class="active_classes_header">
+                    <h3>Continue Learning</h3>
+                    <span
+                      ><a href="#" id="show_all_btn" class="secondary_btn"
+                        >View all</a
+                      >
+                    </span>
+                  </div>
+                  <div class="active_courses"></div>
+                </div>
+                <div class="events">
+                  <h3>Upcoming Deadlines</h3>
+                  <hr />
+                  <div class="deadline_details">
+                    <div class="deadline_date">
+                      <p>oct</p>
+                      <p>25</p>
+                    </div>
+                    <div class="deadline_info">
+                      <h4>Macroeconomics Essay date</h4>
+                      <p>Date tomorrow at 11:59pm</p>
+                    </div>
+                  </div>
+                  <div class="deadline_details">
+                    <div class="deadline_date">
+                      <p>oct</p>
+                      <p>25</p>
+                    </div>
+                    <div class="deadline_info">
+                      <h4>Macroeconomics Essay date</h4>
+                      <p>Date tomorrow at 11:59pm</p>
+                    </div>
+                  </div>
+                  <div class="deadline_details">
+                    <div class="deadline_date">
+                      <p>oct</p>
+                      <p>25</p>
+                    </div>
+                    <div class="deadline_info">
+                      <h4>Macroeconomics Essay date</h4>
+                      <p>Date tomorrow at 11:59pm</p>
+                    </div>
+                  </div>
+                  <a href="#">View Calender</a>
+                </div>
+                <div class="announcements">
+                  <h3>Announcements</h3>
+                  <div>
+                    <i class="bx bx-user-circle"></i>
+                    <span>
+                      <div class="announcements_title">
+                        <h4>Adam Office</h4>
+                        <span>1wk ago</span>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="course_page" class="dashboard_page" style="display: none">
+              <div class="courses_contents">
+                <div class="course_registration">
+                  <select name="course_registeration" id="course_registeration">
+                    <option value="" selected>Register for a new course</option>
+                    <optgroup label="Available Courses" id="Available Courses">
+                      <option
+                        value="Introduction to UX Design"
+                        data-instructor="Dr. Emily Chen"
+                        data-image="/images/aboutpic2.jpg"
+                      >
+                        Introduction to UX Design
+                      </option>
+                      <option
+                        value="Advanced Python Programming"
+                        data-instructor="Prof. Sarah Smith"
+                        data-image="/images/aboutpic3.jpg"
+                      >
+                        Advanced Python Programming
+                      </option>
+                      <option
+                        value="Digital Marketing Strategy"
+                        data-instructor="Usman Amina"
+                        data-image="/images/aboutpic4.jpg"
+                      >
+                        Digital Marketing Strategy
+                      </option>
+                      <option
+                        value="Data Science Fundamentals"
+                        data-instructor="Prof. Alan Turing"
+                        data-image="/images/aboutpic1.jpg"
+                      >
+                        Data Science Fundamentals
+                      </option>
+                      <option
+                        value="Full Stack Web Development"
+                        data-instructor="John Doe"
+                        data-image="/images/aboutpic2.jpg"
+                      >
+                        Full Stack Web Development
+                      </option>
+                      <option
+                        value="Strategic Business Management"
+                        data-instructor="Abubakar Halima"
+                        data-image="/images/muslim2.jpg"
+                      >
+                        Strategic Business Management
+                      </option>
+                    </optgroup>
+                  </select>
+                  <button type="submit" id="register_btn">Register</button>
+                </div>
+                <div class="course_header">
+                  <h2>My Courses</h2>
+                  <div class="courses_filter">
+                    <ul>
+                      <li>
+                        <a
+                          href="#"
+                          class="filter_select active"
+                          id="all_courses"
+                          onclick="toggleCourse('allCourses')"
+                          >All Courses</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="filter_select"
+                          id="in_progress_courses"
+                          onclick="toggleCourse('inProgressCourses')"
+                          >In Progress</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="filter_select"
+                          id="completed_courses"
+                          onclick="toggleCourse('completedCourses')"
+                          >Completed</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="class_list">
+                  <!-- <div class="course_card">
+                    <img src="/images/aboutpic2.jpg" alt="" />
+                    <div class="course_info">
+                      <h3>Introduction to UX Design</h3>
+                      <p>Dr. Emily Chen</p>
+
+                      <div class="progress_container">
+                        <p>75% Complete</p>
+                        <progress value="75" max="100"></progress>
+                      </div>
+                      <button>Go to Course</button>
+                    </div>
+                  </div>
+                  <div class="course_card">
+                    <img src="/images/aboutpic3.jpg" alt="" />
+                    <div class="course_info">
+                      <h3>Advanced Python Programming</h3>
+                      <p>Prof. Sarah Smith</p>
+                      <div class="progress_container">
+                        <p>75% Complete</p>
+                        <progress value="75" max="100"></progress>
+                      </div>
+                      <button>Go to Course</button>
+                    </div>
+                  </div>
+                  <div class="course_card">
+                    <img src="/images/aboutpic4.jpg" alt="" />
+                    <div class="course_info">
+                      <h3>Digital Marketing Strategy</h3>
+                      <p>Usman Amina</p>
+                      <div class="progress_container">
+                        <p>75% Complete</p>
+                        <progress value="75" max="100"></progress>
+                      </div>
+                      <button>Go to Course</button>
+                    </div>
+                  </div>
+                  <div class="course_card">
+                    <img src="/images/aboutpic1.jpg" alt="" />
+                    <div class="course_info">
+                      <h3>Data Science Fundamentals</h3>
+                      <p>Prof. Alan Turing</p>
+                      <div class="progress_container">
+                        <p>75% Complete</p>
+                        <progress value="75" max="100"></progress>
+                      </div>
+                      <button>Go to Course</button>
+                    </div>
+                  </div>
+                  <div class="course_card">
+                    <img src="/images/aboutpic2.jpg" alt="" />
+                    <div class="course_info">
+                      <h3>Full Stack Web Development</h3>
+                      <p>John Doe</p>
+                      <div class="progress_container">
+                        <p>75% Complete</p>
+                        <progress value="75" max="100"></progress>
+                      </div>
+                      <button>Go to Course</button>
+                    </div>
+                  </div>
+                  <div class="course_card">
+                    <img src="/images/muslim2.jpg" alt="" />
+                    <div class="course_info">
+                      <h3>Strategic Business Management</h3>
+                      <p>Abubakar Halima</p>
+                      <div class="progress_container">
+                        <p>75% Complete</p>
+                        <progress value="75" max="100"></progress>
+                      </div>
+                      <button>Go to Course</button>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+            <div
+              id="course_contents"
+              class="dashboard_page"
+              style="display: none"
+            >
+              <div class="course_details">
+                <div class="course_sideBar">
+                  <h3>Course Content</h3>
+                  <div class="course_progress">
+                    <p>% Completed</p>
+                    <span>0 Lessons</span>
+                  </div>
+                  <progress value="0" max="100"></progress>
+                  <div class="modules">
+                    <div class="module open">
+                      <div class="module-header">
+                        <strong>Module 1: Introduction</strong>
+                        <span class="arrow"
+                          ><i class="bx bx-caret-down"></i>
+                        </span>
+                      </div>
+                      <ul class="lessons">
+                        <li class="lesson completed">
+                          <span class="status"
+                            ><i class="bx bx-circle"></i
+                          ></span>
+                          What is UX?
+                        </li>
+                        <li class="lesson active">
+                          <span class="status"
+                            ><i class="bx bx-circle"></i
+                          ></span>
+                          UX vs UI Design
+                        </li>
+                        <li class="lesson">
+                          <span class="status"
+                            ><i class="bx bx-circle"></i
+                          ></span>
+                          Design Thinking
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="module">
+                      <div class="module-header">
+                        <strong>Module 2: User Research</strong>
+                        <span class="arrow">
+                          <i class="bx bx-caret-down"></i>
+                        </span>
+                      </div>
+
+                      <ul class="lessons">
+                        <li class="lesson">
+                          <span class="status"
+                            ><i class="bx bx-circle"></i
+                          ></span>
+                          User Interviews
+                        </li>
+                        <li class="lesson">
+                          <span class="status"
+                            ><i class="bx bx-circle"></i
+                          ></span>
+                          Personas
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="main_course_cotents">
+                  <div class="main_course_cotents_header">
+                    <ul>
+                      <li class="">Course</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              id="assignment_page"
+              class="dashboard_page"
+              style="display: none"
+            >
+              <div class="assignment_header">
+                <div class="header_description">
+                  <h1>Asssignments</h1>
+                  <p>
+                    Manage your deliverables, track due dates, and view grades.
+                  </p>
+                </div>
+                <div class="buttons">
+                  <button class="btn_filter" id="filter_btn">
+                    <i class="bx bx-menu-filter"></i> Filter
+                  </button>
+                  <button class="btn_calender" id="calender_btn">
+                    <i class="bx bx-calendar"></i> Calender View
+                  </button>
+                </div>
+              </div>
+              <div class="assignment_body">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>ASSIGNMENT NAME</th>
+                      <th>COURSE</th>
+                      <th>DUE DATE</th>
+                      <th>STATUS</th>
+                      <th>GRADE</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <!-- <tr>
+                      <td>
+                        <strong>User Personal Research</strong>
+                        <br />
+                        <span>Module 2 . Quiz</span>
+                      </td>
+                      <td>Introduction to UX Design</td>
+                      <td>Oct 12, 2026</td>
+                      <td class="assigment_status graded"><p>Graded</p></td>
+                      <td class="assignment_grade">95/100</td>
+                      <td>></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <strong>Wireframing Challenge</strong>
+                        <br />
+                        <span>Module 4 . file Upload</span>
+                      </td>
+                      <td>Introduction to UX Design</td>
+                      <td>Oct 12, 2026</td>
+                      <td class="assigment_status submited">
+                        <p>Submitted</p>
+                      </td>
+                      <td class="assignment_grade">pending</td>
+                      <td>></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <strong>Responsive Layouts Quiz</strong>
+                        <br />
+                        <span>Module 3 . Quiz</span>
+                      </td>
+                      <td>Web Development 101</td>
+                      <td class="due_date">
+                        <i class="bx bx-alarm-exclamation"></i> Tomorrow
+                      </td>
+                      <td class="assigment_status not_started">
+                        <p>Not Started</p>
+                      </td>
+                      <td class="assignment_grade"></td>
+                      <td>></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <strong>Color Theory Essay</strong>
+                        <br />
+                        <span>Module 1 . Essay</span>
+                      </td>
+                      <td>Graphic Design Fundamentals</td>
+                      <td>Oct 12, 2026</td>
+                      <td class="assigment_status not_started">
+                        <p>Not Started</p>
+                      </td>
+                      <td class="assignment_grade"></td>
+                      <td>></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <strong>User Personal Research</strong>
+                        <br />
+                        <span>Week 4 . Group Project</span>
+                      </td>
+                      <td>Project Management</td>
+                      <td>Oct 12, 2026</td>
+                      <td class="assigment_status graded"><p>Graded</p></td>
+                      <td class="assignment_grade">90/100</td>
+                      <td>></td>
+                    </tr> -->
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <td colspan="5" class="t_footer">
+                        <i class="bx bx-alert-circle"></i>
+                        <span
+                          >Click an assignment row to view details, submit files
+                          or take quizzes.</span
+                        >
+                      </td>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+              <div class="filter_Modal" id="filter_modal">
+                <div class="filter_content">
+                  <span class="close_filter">&times;</span>
+                  <h2>Filter Assignments</h2>
+                  <div class="filter_options">
+                    <label for="course_filter">Course:</label>
+                    <select name="course_filter" id="course_filter">
+                      <option value="all">All Courses</option>
+                      <option value="Introduction to UX Design">
+                        Introduction to UX Design
+                      </option>
+                      <option value=" Advanced Python Programming">
+                        Advanced Python Programming
+                      </option>
+                      <option value="Digital Marketing Strategy">
+                        Digital Marketing Strategy
+                      </option>
+                      <option value="Graphic Design Fundamentals">
+                        Graphic Design Fundamentals
+                      </option>
+                      <option value="Web Development 101">
+                        Web Development 101
+                      </option>
+                    </select>
+
+                    <label for="status_filter">Status:</label>
+                    <select name="status_filter" id="status_filter">
+                      <option value="all">All Statuses</option>
+                      <option value="processing">In Progress</option>
+                      <option value="submitted">Submitted</option>
+                      <option value="graded">Graded</option>
+                    </select>
+
+                    <button id="apply_filter_btn">Apply Filters</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              id="student_grade"
+              class="dashboard_page"
+              style="display: none"
+            >
+              <div class="student_grade">
+                <div class="grade_header">
+                  <div>
+                    <h2>My Grades</h2>
+                    <p>Track Your academic performance across all courses</p>
+                  </div>
+                  <button id="btn_export"><i class="bx bx-"></i> Export</button>
+                </div>
+                <div class="grade_highlight">
+                  <div class="cgpa">
+                    <p>Cumulative GPA</p>
+                    <div class="cgpa_details">
+                      <h3>3.90</h3>
+                      <i class="bx bx-bar-chart-square"></i>
+                    </div>
+                    <p class="growth_update">
+                      <i class="bx bx-trending-up"></i> +0.2 this term
+                    </p>
+                  </div>
+                  <div class="credit_earned">
+                    <p>Credits Earned</p>
+                    <div class="credit_earned_details">
+                      <div>
+                        <h3>42</h3>
+                        <span>/120</span>
+                      </div>
+                      <i class="bx bx-education"></i>
+                    </div>
+                    <p>Sophomore Year</p>
+                  </div>
+                  <div class="assignments_grade">
+                    <p>Assignments</p>
+                    <div class="assignments_grade_details">
+                      <h3>94%</h3>
+                      <i class="bx bx-check-circle"></i>
+                    </div>
+                    <p>Submission Rate</p>
+                  </div>
+                </div>
+                <div class="grade_details">
+                  <div class="grade_navigations">
+                    <div>
+                      <button class="grade_nav_btn active">All Courses</button>
+                      <button class="grade_nav_btn">CS 101</button>
+                      <button class="grade_nav_btn">MATH 202</button>
+                      <button class="grade_nav_btn">HIS 105</button>
+                    </div>
+                    <div class="filter_assignment">
+                      <input
+                        type="text"
+                        placeholder="Filter Assignments"
+                        name="Assignments_filter"
+                        id="assignment_filter"
+                      />
+                      <i class="bx bx-search assignment_filter"></i>
+                    </div>
+                  </div>
+                  <div class="grade_table">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>COURSE NAME</th>
+                          <th>ASSIGNMENT NAME</th>
+                          <th>DUE DATE</th>
+                          <th>SCORE</th>
+                          <th>TOTAL POINTS</th>
+                          <th>GRADE</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!-- <tr>
+                          <td class="course_cell blue">
+                            <div class="course-name">Intro to CS</div>
+                            <div class="course-code">CS 101</div>
+                          </td>
+                          <td>Midterm Exam</td>
+                          <td>Oct 15, 2024</td>
+                          <td><strong>99</strong></td>
+                          <td>100</td>
+                          <td class="grade grade-b-plus">99% (B+)</td>
+                        </tr>
+                        <tr>
+                          <td class="course_cell blue">
+                            <div class="course-name">Intro to CS</div>
+                            <div class="course-code">CS 101</div>
+                          </td>
+                          <td>Algorithm Project</td>
+                          <td>Nov 02, 2024</td>
+                          <td><strong>95</strong></td>
+                          <td>100</td>
+                          <td class="grade grade-a">99% (A)</td>
+                        </tr>
+                        <tr>
+                          <td class="course_cell purple">
+                            <div class="course-name">Calculus II</div>
+                            <div class="course-code">MATH 202</div>
+                          </td>
+                          <td>Weekly Quiz #4</td>
+                          <td>Oct 25, 2024</td>
+                          <td><strong>19</strong></td>
+                          <td>20</td>
+                          <td class="grade grade-a-">99% (A-)</td>
+                        </tr>
+                        <tr>
+                          <td class="course_cell orange">
+                            <div class="course-name">Modern History</div>
+                            <div class="course-code">HIS 106</div>
+                          </td>
+                          <td>Essay: Industrial Rev</td>
+                          <td>Nov 10, 2024</td>
+                          <td><strong>42</strong></td>
+                          <td>50</td>
+                          <td class="grade grade-b">74% (B)</td>
+                        </tr>
+                        <tr>
+                          <td class="course_cell purple">
+                            <div class="course-name">Calculus II</div>
+                            <div class="course-code">MATH 202</div>
+                          </td>
+                          <td>Midterm Exam</td>
+                          <td>Oct 20, 2024</td>
+                          <td><strong>72</strong></td>
+                          <td>100</td>
+                          <td class="grade grade-c"><span>72% (c-)</span></td>
+                        </tr> -->
+                      </tbody>
+                    </table>
+                    <div class="grade-foot">
+                      <div class="table-info">
+                        Showing 1 to 5 of 12 assignments
+                      </div>
+                      <div class="table-btn">
+                        <button class="btn_prev" disabled>Prev</button>
+                        <button class="btn_next">Next</button>
+                      </div>
+                      <!-- <div></div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="setting" class="dashboard_page" style="display: none">
+              <div class="profile_header">
+                <h1>Profile Settings</h1>
+                <p>Manage your personal information and preferences</p>
+              </div>
+              <div class="profile">
+                <div class="profile_links" id="profile_links">
+                  <ul>
+                    <li class="active" id="student-info">General Info</li>
+                    <li id="student-security">Security</li>
+                    <li id="student-notifications">Notifications</li>
+                  </ul>
+                </div>
+                <div
+                  class="general_info user-info"
+                  id="general_info"
+                  style="display: none"
+                >
+                  <div class="user_details">
+                    <div class="user_picture">
+                      <img
+                        src="/images/aboutpic3.jpg"
+                        alt=""
+                        id="user-profile"
+                      />
+                    </div>
+                    <div class="user_detail">
+                      <h4>User Name</h4>
+                      <p>Computer Science Major • Senior Year</p>
+                      <div>
+                        <div class="upload_new_photo">
+                          <input
+                            type="file"
+                            id="upload_profile_pic"
+                            accept="image/"
+                            hidden
+                          />
+                          <label
+                            for="upload_profile_pic"
+                            class="upload_profile_pic"
+                            >Upload New Photo</label
+                          >
+                        </div>
+                        <button id="btn_remove_profile_pic">Remove</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="user_inputs">
+                    <div class="user_names">
+                      <div class="first-name">
+                        <label for="first-name">First Name</label>
+                        <input
+                          type="text"
+                          placeholder="John"
+                          id="first-name"
+                          name="first_name"
+                        />
+                      </div>
+                      <div class="last-name">
+                        <label for="last-name">Last Name</label>
+                        <input
+                          type="text"
+                          placeholder="Doe"
+                          id="last-name"
+                          name="last_name"
+                        />
+                      </div>
+                    </div>
+                    <div class="user_email">
+                      <label for="user-email">Email Address</label>
+                      <div>
+                        <input
+                          type="email"
+                          id="user-email"
+                          name="user_email"
+                          disabled
+                        />
+                        <i class="bx bxs-lock-keyhole"></i>
+                      </div>
+                    </div>
+                    <label for="phone-number">Phone Number</label>
+                    <input
+                      type="tel"
+                      name="phone-number"
+                      id="phone-number"
+                      placeholder="+234-710-732-1121"
+                    />
+                    <div class="textarea-wrapper">
+                      <label for="bio">Bio</label>
+                      <textarea
+                        name="bio"
+                        id="bio"
+                        maxlength="50"
+                        cols="30"
+                        rows="20"
+                      ></textarea>
+                      <span class="bio-caption">0/50 characters</span>
+                    </div>
+                    <div class="general-changes-btn">
+                      <button id="btn_cancel">Cancel</button>
+                      <div class="profile-edit">
+                        <button id="btn-save">Save Changes</button>
+                        <button id="btn-edit-settings">Edit Settings</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="security user-info"
+                  id="security"
+                  style="display: none"
+                >
+                  <div class="change-password-container">
+                    <div class="change-password-header">
+                      <h3>Change Password</h3>
+                      <p>
+                        We recommend a strong password with at least 8
+                        characters
+                      </p>
+                    </div>
+                    <div class="password-inputs-container">
+                      <label for="current-password">Current Password</label>
+                      <input
+                        type="password"
+                        name="current-password"
+                        id="current-password"
+                        placeholder="••••••••"
+                      />
+                      <div class="new-password-container">
+                        <div>
+                          <label for="new-password">New Password</label>
+                          <input
+                            type="password"
+                            name="new-password"
+                            id="new-password"
+                            placeholder="••••••••"
+                          />
+                        </div>
+                        <div>
+                          <label for="confirm-new-password"
+                            >Confirm New Password</label
+                          >
+                          <input
+                            type="password"
+                            name="confirm-new-password"
+                            id="confirm-new-password"
+                            placeholder="••••••••"
+                          />
+                        </div>
+                      </div>
+                      <button id="save_new_password">Save Changes</button>
+                    </div>
+                  </div>
+                  <div class="authentication-container">
+                    <div>
+                      <h3>Two-Factor Authentication</h3>
+                      <p>
+                        Add an extra layer of security to your account by
+                        requiring a verfication code in adition to your password
+                      </p>
+                    </div>
+                    <div class="toogle-btn">
+                      <i class="bx bxs-toggle-big-left"></i>
+                      <!-- <i class="bx bxs-toggle-big-right"></i> -->
+                    </div>
+                  </div>
+                  <div class="login-activity-container">
+                    <div class="login-activity-header">
+                      <div class="activity-description">
+                        <h3>Login Activity</h3>
+                        <p>Recent devices used to access your account</p>
+                      </div>
+                      <button id="btn-logout-session">
+                        Log out all sessions
+                      </button>
+                    </div>
+                    <div class="login-details-container">
+                      <div class="login-description-container">
+                        <i class="bx bxs-monitor"></i>
+                        <div class="login-description">
+                          <h3>Windows PC • Chrome</h3>
+                          <span class="current-session">•</span>
+                          <p>Abuja NGA • 192.368.11</p>
+                        </div>
+                      </div>
+                      <i class="bx bx-dots-vertical"></i>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="notification user-info"
+                  id="notification"
+                  style="display: none"
+                >
+                  <div class="notification-container">
+                    <div class="notifications">
+                      <img
+                        src="/images/aboutpic3.jpg"
+                        alt="placeholder image"
+                      />
+                      <div class="notification-description">
+                        <h3>Email Notifications</h3>
+                        <p>Manage your email notification preferences</p>
+                      </div>
+                    </div>
+                    <div class="notifications">
+                      <img
+                        src="/images/aboutpic3.jpg"
+                        alt="placeholder image"
+                      />
+                      <div class="notification-description">
+                        <h3>Email Notifications</h3>
+                        <p>Manage your email notification preferences</p>
+                      </div>
+                    </div>
+                    <div class="notifications">
+                      <img
+                        src="/images/aboutpic3.jpg"
+                        alt="placeholder image"
+                      />
+                      <div class="notification-description">
+                        <h3>Email Notifications</h3>
+                        <p>Manage your email notification preferences</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </section>
+    </section>
+    <div id="calendar" class="calender"></div>
+    <!-- notification modal -->
+    <div class="notification-modal" style="display: none">
+      <h3>Notifications</h3>
+      <div class="notification-container">
+        <div class="notification-message read">
+          <p>New student enrolled in Web Development</p>
+          <p>5 mins ago</p>
+        </div>
+        <div class="notification-message read">
+          <p>New student enrolled in Web Development</p>
+          <p>5 mins ago</p>
+        </div>
+        <div class="notification-message read">
+          <p>New student enrolled in Web Development</p>
+          <p>5 mins ago</p>
+        </div>
+        <div class="notification-message">
+          <p>New student enrolled in Web Development</p>
+          <p>5 mins ago</p>
+        </div>
+      </div>
+      <button id="btn-view-all">View all notifications</button>
+    </div>
+    <!-- Landing Page -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
+    <script src="app.js" type="module"></script>
+    <script src="ui.js" type="module"></script>
+    <script src="storage.js" type="module"></script>
+  </body>
+</html>
